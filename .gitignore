@@ -1,0 +1,24 @@
+# Python virtual environments
+venv/
+*.pyc
+__pycache__/
+
+# YOLOv8 runs (training logs & weights)
+runs/
+weights/
+best.pt
+last.pt
+
+# Streamlit/WebRTC
+.streamlit/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Environment files
+.env

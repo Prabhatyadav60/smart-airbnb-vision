@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['bed', 'chair', 'door', 'lamp', 'mirror', 'pillow', 'sofa', 'table', 'window']
+
+roboflow:
+  workspace: yolo-ysajs
+  project: room-uzsl0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-ysajs/room-uzsl0/dataset/1
