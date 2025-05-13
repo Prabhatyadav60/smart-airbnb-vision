@@ -1,4 +1,7 @@
 # Computer Vision for Smart Interaction
+![image](https://github.com/user-attachments/assets/4bcef37b-1897-46e1-8889-9b3daa2872e3)
+
+
 
 This repository contains a custom YOLOv8-based object detection solution for recognizing real-world objects in an Airbnb-like setting. It supports offline training on a custom dataset and real-time inference via a Streamlit web app.
 
@@ -20,11 +23,11 @@ This repository contains a custom YOLOv8-based object detection solution for rec
 
 ---
 
+
 ## Project Overview
 
 * **Goal**: Train a lightweight YOLOv8s model to detect items and room layouts in an Airbnb-style dataset, optimized for efficiency on low-resource devices.
 * **Key Features**:
-
   * Custom dataset sourced from [Roboflow – Airbnb Collection](https://universe.roboflow.com/robin-mortier/airbnb).
   * Real-time webcam inference via a Streamlit web interface.
   * Simple training and testing scripts for rapid experimentation.
@@ -121,7 +124,10 @@ python train.py --data data.yaml --epochs 10
 
 ---
 
+
+
 ## Testing
+
 
 Run inference on a static image:
 
@@ -132,6 +138,9 @@ python test.py --weights runs/detect/train/weights/best.pt --source test_sample.
 * The result will be displayed in a window and saved as `detected_output.jpg`.
 
 ---
+![image](https://github.com/user-attachments/assets/48bd9eff-5a1f-436e-a650-b8cbc77ac937)
+
+
 
 ## Real-time Detection (Streamlit App)
 
@@ -157,7 +166,8 @@ streamlit run app.py
 
 ## Performance Metrics
 
-img
+![image](https://github.com/user-attachments/assets/42d00273-6cc3-4465-bc57-56632ee0dc22)
+
 > Detailed metric plots are available in `runs/detect/train/`.
 
 ---
