@@ -3,11 +3,7 @@ venv/
 *.pyc
 __pycache__/
 
-# YOLOv8 runs (training logs & weights)
-runs/
-weights/
-best.pt
-last.pt
+
 
 # Streamlit/WebRTC
 .streamlit/
